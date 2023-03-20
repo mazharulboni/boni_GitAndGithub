@@ -11,7 +11,8 @@ Ans:
     c. command: git clone "https://github.com/mazharulboni/Mazharul_GitAndGithub-.git", enter, file should be cloned
 
 3. Check which branch you are in now. Is it the “Master” branch?
-Ans: Yes
+Ans: Command: cd Mazharul_GitAndGithub-.git
+		I am in main branch
 
 4. Add two text files in this “Master” branch. 1. Git. text 2. GitHub.text
 Ans.
@@ -21,6 +22,7 @@ Ans.
 Ans:
     Command: nano git.txt, Write 100 words about git, ctrl+x, y, enter
     Command: nano github.txt, Write 100 words about github, ctrl+x, y, enter
+
 
 6. Add a README.md file. write the uses git commands, usage, and answers which you have finished.
 Ans:
@@ -81,3 +83,40 @@ Ans:
 Ans:
     command: touch differences.txt
     command: nano differences.txt, edit and save the change
+
+
+17. Update the README.md file. write the uses git commands, usage, and answers which you have finished.
+Ans:
+    nano README.md
+    Copy and paste te answer
+
+
+18. See the changes by the respective git command.
+Ans:
+    git status
+
+19. Push all the changes to the remote.
+    Command: git add .
+    command: git commit -m "any message", to commit the file
+    command: git push --set-upstream origin differences
+
+
+20. Do you see any changes between your two branches?
+Ans:
+    Yes I do
+
+21. Set your current branch as the “Master” Branch. and merge with the feature branch (“differences”).  (After this step it's little advance for you at this stage of the course, but you can try.)
+Ans:
+    I switched the main branch as default branch
+	command: git checkout main
+	command: git add .
+
+
+22. Do you see any changes between your two branches?
+Ans:
+    I see no changes as feature and main branches are merged
+
+23. Push all the changes to the remote.
+Ans:
+        command: git commit -m "any message", to commit the file
+        command: git push 
